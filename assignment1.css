@@ -1,0 +1,79 @@
+.pagecontent {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+.formstyle {
+    padding: 16px;
+    background-color: #f2f2f2;
+    width: 75%;
+}
+.headerstyle{
+    width: 960px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+.buttonstyle::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+.cancelbtn {
+    padding: 20px 20px;
+    background-color: #f44336;
+}
+.cancelbtn a {
+    text-decoration: none;
+}
+.cancelbtn a:hover{
+    text-decoration: underline;
+}
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+input[type=text], input[type=email] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: block;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+ }
+.thintextbox{
+    width: 200px;
+    padding: 20px 20px;
+    margin: 8px;
+
+}
+.centredheading{
+    text-align: center;
+
+}
+.floatleftimage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+body{
+    background-image: url(sand.jpg);
+    background-size: 100%;
+}

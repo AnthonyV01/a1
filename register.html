@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - Slammers Site</title>
+    <link href="assignment1.css" rel="stylesheet" type="text/css">
+</head>
+<header class="headerstyle">
+    <nav>
+        <a href="index.html">Homepage</a> |
+        <a href="register.html">Sign Up</a> |
+        <a href="">Announcements</a> |
+        <a href="">Playing Guidelines</a>
+    </nav>
+</header>
+<body>
+<form action="mailto:anthony.vincin@my.jcu.edu.au" method="post">
+    <div class="pagecontent">
+        <h1>Sign-up Form</h1>
+    <div class="formstyle">
+        <label><b>Name</b></label>
+        <input type="text" placeholder="Enter name" name="Name" required>
+
+        <label><b>Phone Number</b></label>
+        <input type="text" placeholder="Enter phone number" name="Phonenumber" required>
+
+        <label><b>Email Address</b></label>
+        <input type="text" placeholder="Enter email address" name="Email" required>
+
+        <label><b>Competition Day</b></label>
+        <select id="day" name="day">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+        </select>
+
+        <label><b>Competition Time</b></label>
+        <select id="time" name="time">
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+        </select>
+        <p>By signing up, you agree to our <a href="guidelines.html"> Playing Guidelines </a></p>
+        <input type="checkbox" checked="checked"> Agree to playing guidelines
+
+        <div class="buttonstyle">
+            <button type="button"  class="cancelbtn"><a href="index.html">Cancel</button>
+            <button type="submit" class="signupbtn" value="Send email">Sign Up</button>
+        </div>
+    </div>
+    </div>
+</form>
+
+</body>
+</html>
