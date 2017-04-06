@@ -5,19 +5,26 @@
     <title>Sign Up - Slammers Site</title>
     <link href="assignment1.css" rel="stylesheet" type="text/css">
 </head>
-<header class="headerstyle">
-    <nav>
-        <a href="index.html">Homepage</a> |
-        <a href="register.html">Sign Up</a> |
-        <a href="">Announcements</a> |
-        <a href="">Playing Guidelines</a>
-    </nav>
+<header>
+<div class="navbar">
+        <nav>
+        <a href="index.html">Homepage</a>
+        <a href="register.html">Sign Up</a>
+        <a href="guidelines.html">Playing Guidelines</a>
+        <a href="#">Contact</a>
+        </nav>
+    </div>
 </header>
 <body>
-<form action="mailto:anthony.vincin@my.jcu.edu.au" method="post">
+
     <div class="pagecontent">
-        <h1>Sign-up Form</h1>
+        <img src="transparent_logo.png" height="200" width="300" alt="Logo" class="logo">
+
+      <div class="subcontainer">
+
+        <h1>Sign-up for Slammers Beach Volleyball</h1>
     <div class="formstyle">
+        <form action="mailto:anthony.vincin@my.jcu.edu.au" method="post">
         <label><b>Name</b></label>
         <input type="text" placeholder="Enter name" name="Name" required>
 
@@ -49,6 +56,7 @@
             <button type="button"  class="cancelbtn"><a href="index.html">Cancel</button>
             <button type="submit" class="signupbtn" value="Send email">Sign Up</button>
         </div>
+    </div>
     </div>
     </div>
 </form>

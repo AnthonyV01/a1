@@ -1,9 +1,29 @@
-.pagecontent {
-    background-color: white;
-    width: 960px;
+body {
     margin: 0 auto;
+    font-family: Arial, serif;
+    background-color: #cccccc;
+}
+.pagecontent {
+    background-color: #ffffff;
+    width: 1160px;
+
+    margin-left: 160px;
     display: block;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    min-height: 600px;
+
+}
+.subcontainer {
+    width: 900px;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+
 }
 .formstyle {
     padding: 16px;
@@ -11,7 +31,7 @@
     width: 75%;
 }
 .headerstyle{
-    width: 960px;
+    width: 860px;
     background-color: white;
     padding: 20px;
     text-align: center;
@@ -47,6 +67,7 @@ button {
 .cancelbtn,.signupbtn {
     float: left;
     width: 50%;
+    font-size: 24px;
 }
 input[type=text], input[type=email] {
      width: 100%;
@@ -66,14 +87,142 @@ input[type=text], input[type=email] {
     text-align: center;
 
 }
-.floatleftimage{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    float: left;
+.floatimage{
+
+    margin-left: 25%;
+
 }
 
-body{
-    background-image: url(sand.jpg);
-    background-size: 100%;
+
+.navbar {
+    background: url(sand.jpg);
+    border: 1px solid #000000;
+    width: 860px;
+    margin-left: 310px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    
 }
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 2px 2px black;
+}
+.navbar a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: all 2s;
+}
+.callbutton {
+    width: 400px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 38px;
+    text-align:center;
+    background-color: transparent;
+    border-radius: 5px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 0px;
+
+
+}
+.callbutton a{
+    text-decoration: none;
+    background: white;
+    box-shadow: 2px 3px 1px #000000;
+}
+.callbutton a:hover{
+    background: #d8dc00;
+    transition: all 0.5s;
+}
+.logo{
+    border: 5px solid black;
+    margin-top: -80px;
+    margin-left: -180px;
+    float: left;
+}
+.liststyle{
+    list-style: none;
+    margin-left: -38px;
+    line-height: 190%
+}
+.sidebar {
+    background: #5983ae;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+
+    border-radius: 10px;
+    color: whitesmoke;
+    margin-left: -290px;
+    margin-top: 130px;
+    float: left;
+
+}
+.sidebar_right {
+    background: #5983ae;
+    width: 250px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: #fbff80;
+    float: right;
+    margin-right: -290px;
+    margin-top: -10px;
+}
+.announcements {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: -40px;
+}
+.spacedlist {
+    margin-top: 20px;
+}
+.spacedlist a:hover {
+    background-color: black;
+    transition: all 0.5s;
+}
+.photocontent_homepage{
+    width: 640px;
+    height: 483px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.ladder {
+    font-family: arial, sans-serif;
+    margin-left: 10.5%;
+}
+.ladder td, th {
+    border: 1px solid #5983ae;
+    text-align: left;
+    padding: 8px;
+
+}
+.ladder tr:nth-child(even) {
+    background-color: #7bb4ea;
+    color: #ffffff;
+}
+.ladder tr:nth-child(odd){
+    background-color: #fbff80
+
+}
+.subcontheading{
+    margin-left: 12%;
+    font-family: "Cambria";
+    font-weight: bold;
+}
+.no_line {
+    text-decoration: none;
+    color: #FBFF80;
+}
+
+
