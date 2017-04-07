@@ -4,31 +4,29 @@ body {
     background-color: #cccccc;
 }
 .pagecontent {
-    background-color: #ffffff;
+    background-color: transparent;
     width: 1160px;
-
     margin-left: 160px;
     display: block;
     padding: 10px 20px 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     min-height: 600px;
-
 }
 .subcontainer {
     width: 900px;
     margin: 0 auto;
-    min-height: 600px;
+    min-height: 500px;
     background-color: #eeeeee;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-
-
 }
 .formstyle {
     padding: 16px;
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
     width: 75%;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 .headerstyle{
     width: 860px;
@@ -81,18 +79,13 @@ input[type=text], input[type=email] {
     width: 200px;
     padding: 20px 20px;
     margin: 8px;
-
 }
 .centredheading{
     text-align: center;
-
 }
 .floatimage{
-
     margin-left: 25%;
-
 }
-
 
 .navbar {
     background: url(sand.jpg);
@@ -108,7 +101,6 @@ input[type=text], input[type=email] {
     border-radius: 5px;
     margin-top: 10px;
     text-align: center;
-    
 }
 
 .navbar a {
@@ -133,9 +125,7 @@ input[type=text], input[type=email] {
     border-radius: 5px;
     color: black;
     margin: 0 auto;
-    margin-top: 0px;
-
-
+    margin-top: 10px;
 }
 .callbutton a{
     text-decoration: none;
@@ -147,40 +137,43 @@ input[type=text], input[type=email] {
     transition: all 0.5s;
 }
 .logo{
-    border: 5px solid black;
     margin-top: -80px;
     margin-left: -180px;
     float: left;
+    border-color: transparent;
 }
 .liststyle{
     list-style: none;
     margin-left: -38px;
-    line-height: 190%
+}
+.liststyle li{
+    margin-top: 20px;
 }
 .sidebar {
     background: #5983ae;
     width: 250px;
     padding: 10px 10px 10px 10px;
-
+    border: 2px solid #eeeeee;
     border-radius: 10px;
     color: whitesmoke;
     margin-left: -290px;
     margin-top: 130px;
     float: left;
-
 }
 .sidebar_right {
     background: #5983ae;
     width: 250px;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
-    color: #fbff80;
+    color: whitesmoke;
     float: right;
-    margin-right: -290px;
+    margin-right: -300px;
     margin-top: -10px;
+    border: 2px solid #eeeeee;
+
 }
 .announcements {
-    list-style-type: disc;
+    list-style-type: none;
     text-align: left;
     margin-left: -40px;
 }
@@ -216,13 +209,133 @@ input[type=text], input[type=email] {
 
 }
 .subcontheading{
-    margin-left: 12%;
-    font-family: "Cambria";
+    margin-left: 8%;
+    font-family: "Tahoma";
     font-weight: bold;
+
 }
 .no_line {
     text-decoration: none;
-    color: #FBFF80;
+    color: whitesmoke;
 }
+.contact {
+    list-style-type: none;
+    text-align: left;
+    margin-left: -30px;
+}
+.info_bar_index {
+    width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 130px;
+    background-color: #0c5ad7;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    font-family: "Segoe UI";
+    font-stretch: expanded;
+    font-style: italic;
+}
+.registerbar {
+    width: 300px;
+    float: right;
+    margin-top: -66px;
+    margin-right: -165px;
+}
+.registerbutton {
+    width: 250px;
+    font-weight: bold;
+    font-size: 36px;
+    text-align:center;
+    background-color: transparent;
+    border-radius: 5px;
+    color: black;
+    margin: 0 auto;
+}
+.registerbutton a{
+    text-decoration: none;
+    color: black;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.registerbutton a:hover{
+    background: #00c959;
+    transition: all 0.25s;
+}
+.aboutinfo_overflow{
+    width: 440px;
+    background-color: #dddddd;
+    margin-left: 450px;
+    margin-right: 10px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    height: 460px;
+    overflow: auto;
+    float:right;
+    margin-top: -271px;
+    font-size: 14px;
+    line-height: 20px;
 
+}
+.aboutinfo_left{
+    float:left;
+    background-color: #0c5ad7;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: -220px;
+    margin-left: 10px;
+    width: 348px;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-style: italic;
+    border: 2px solid #cccccc;
+    color: white;
 
+}
+.footer_about {
+    width: 900px;
+    background-color: #eeeeee;
+    height: 20px;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: -10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+
+}
+.paddedheading{
+    padding-left: 10px;
+    font-family: "Gill Sans MT";
+    font-weight: bold;
+}
+.inset_box{
+    background-color: #dddddd;
+    width: 290px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+}
+.photocontent_about{
+    width: 387px;
+    height: 271px;
+    padding-left: 10px;
+}
+.photoborder{
+    border-radius: 10px;
+    border: 2px solid #cccccc;
+}
+.inset_box a:hover{
+    background-color: #eeeeee;
+}
+.photocontent_guidelines{
+    float: right;
+    width: 568px;
+    height: 426px;
+    margin-top: -450px;
+    margin-right: 10px;
+
+}

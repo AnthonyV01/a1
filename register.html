@@ -9,22 +9,22 @@
 <div class="navbar">
         <nav>
         <a href="index.html">Homepage</a>
-        <a href="register.html">Sign Up</a>
-        <a href="guidelines.html">Playing Guidelines</a>
-        <a href="#">Contact</a>
+        <a href="about.html">About Us</a>
+        <a href="guidelines.html">Guidelines</a>
+        <a href="contact.html">Contact</a>
         </nav>
     </div>
 </header>
 <body>
 
     <div class="pagecontent">
-        <img src="transparent_logo.png" height="200" width="300" alt="Logo" class="logo">
+        <img src="transparent_logo_1.png" height="200" width="300" alt="Logo" class="logo">
 
       <div class="subcontainer">
 
-        <h1>Sign-up for Slammers Beach Volleyball</h1>
+        <h1 class="paddedheading">Sign-up for Slammers Beach Volleyball</h1>
     <div class="formstyle">
-        <form action="mailto:anthony.vincin@my.jcu.edu.au" method="post">
+        <form action="mailto:slammers@gmail.com?Subject=Sign%20Up%20-%20Slammers" method="post">
         <label><b>Name</b></label>
         <input type="text" placeholder="Enter name" name="Name" required>
 
@@ -50,16 +50,18 @@
                 <option value="evening">Evening</option>
         </select>
         <p>By signing up, you agree to our <a href="guidelines.html"> Playing Guidelines </a></p>
-        <input type="checkbox" checked="checked"> Agree to playing guidelines
+        <input type="checkbox" checked="checked" required> Agree to playing guidelines
 
         <div class="buttonstyle">
             <button type="button"  class="cancelbtn"><a href="index.html">Cancel</button>
             <button type="submit" class="signupbtn" value="Send email">Sign Up</button>
         </div>
+        </form>
     </div>
     </div>
+
     </div>
-</form>
+
 
 </body>
 </html>
